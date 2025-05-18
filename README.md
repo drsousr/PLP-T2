@@ -58,12 +58,12 @@ Ambas as versões da calculadora (em C e C++) implementam as seguintes funcional
     sudo apt-get install libgtkmm-3.0-dev
     ```
 
-
+2.  **Compilação:** 
     ```bash
     g++ main.cpp -o calculadora_cpp `pkg-config --cflags --libs gtkmm-3.0`
     ```
 
-
+3.  **Execução:** 
     ```bash
     ./calculadora_cpp
     ```
